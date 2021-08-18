@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - pkg > globby > fast-glob > micromatch > snapdragon > debug:
+        patched: '2021-08-18T07:23:16.741Z'
+    - pkg > globby > fast-glob > micromatch > braces > snapdragon > debug:
+        patched: '2021-08-18T07:23:16.741Z'
+    - pkg > globby > fast-glob > micromatch > extglob > snapdragon > debug:
+        patched: '2021-08-18T07:23:16.741Z'
+    - pkg > globby > fast-glob > micromatch > nanomatch > snapdragon > debug:
+        patched: '2021-08-18T07:23:16.741Z'
+    - pkg > globby > fast-glob > micromatch > extglob > expand-brackets > debug:
+        patched: '2021-08-18T07:23:16.741Z'
+    - pkg > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2021-08-18T07:23:16.741Z'
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2021-08-18T07:23:16.741Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-08-18T07:23:16.741Z'
+    - eslint > table > lodash:
+        patched: '2021-08-18T07:23:16.741Z'
