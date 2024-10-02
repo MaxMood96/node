@@ -201,7 +201,7 @@
   ],
   "devDependencies": {
     "@npmcli/eslint-config": "^2.0.0",
-    "@npmcli/template-oss": "^2.9.2",
+    "@npmcli/template-oss": "^4.23.4",
     "eslint": "^8.3.0",
     "licensee": "^8.2.0",
     "spawk": "^1.7.1",
